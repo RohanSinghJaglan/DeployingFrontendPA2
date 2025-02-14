@@ -1,0 +1,36 @@
+/* src/app.css */
+.app {
+    margin-left: 90%;
+    margin-right: -90%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    transition: ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f0f8ff;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #09d0d0;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    color: #6c0808;
+    margin: 5px 0;
+  }
+  
+  .app p:last-child {
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  .app:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  }
+  
